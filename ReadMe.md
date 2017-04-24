@@ -4,7 +4,7 @@
    1、users   用户
    2、courses   课程
    3、organization   教育机构和教师
-   4、operation  操作
+   4、operation  组合其他的app
 
 
 >* 覆盖原有的user表
