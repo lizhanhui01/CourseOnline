@@ -8,6 +8,7 @@ from courses.models import Course
 # Create your models here.
 # 集成其他几个APP的APP
 # 避免的其他几个APP之间的循环调用
+# 在一个系统中 ， 几个APP之间的关系设计是十分重要的
 
 
 class UserAsk(models.Model):
