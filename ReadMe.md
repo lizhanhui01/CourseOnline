@@ -44,3 +44,9 @@
 >* 我们应该告诉Python我们把那些文件夹作为了SourcesRoot，那么怎么告诉呢，在setting中定义(18-19)行，这里我就不写了
        
 
+##使用xadmin
+>* 1、安裝后xadmin后，再setting的APP中导入xadmin以及crispy_forms
+>* 2、把urls.py中的启动项目的指向admin的URL该为指向xadmin
+>* 3、导入xadmin的数据库表 Tools->run manage.py task->makemigrations->migrate
+>* 4、启动时访问http://127.0.0.1:8000/是会报错的 - 这正常，访问http://127.0.0.1:8000/xadmin/就行
+
