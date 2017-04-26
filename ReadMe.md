@@ -6,6 +6,10 @@
    2、courses   课程   
    3、organization   教育机构和教师   
    4、operation  组合其他的app   
+   
+##新建APP
+>* 1、Pycharm 中：Tools -> Rum manage.py Task -> startapp app_name   
+>* 2、terminal中：cd 到项目的根目录 -> startapp app_name
 
 ## User app
 ###user表的编写（要覆盖原有的user表）
@@ -15,12 +19,15 @@
    
 ## 课程 app
 ###表的编写
->* Course - 课程基本信息
->* Lesson - 章节信息
->* Video - 视频
->* CourseResource - 课程资源(课程源码什么的)
+>* Course - 课程基本信息   
+>* Lesson - 章节信息    
+>* Video - 视频     
+>* CourseResource - 课程资源(课程源码什么的)      
+
 ###Django中外键的使用
 >* Class Course(models.Model):     
        //TODO      
    Class CourseResource(models.Model):      
        course = models.ForeignKey(Course,verbose_name=u"课程")
+       
+
