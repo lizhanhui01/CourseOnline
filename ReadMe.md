@@ -22,5 +22,5 @@
 ###Django中外键的使用
 >* Class Course(models.Model):     
        //TODO      
-   Class CourseResource(models.Model):
+   Class CourseResource(models.Model):      
        course = models.ForeignKey(Course,verbose_name=u"课程")
