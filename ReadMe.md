@@ -30,4 +30,11 @@
    Class CourseResource(models.Model):      
        course = models.ForeignKey(Course,verbose_name=u"课程")
        
+       
+## 后台管理系统
+### 特点：
+>* 权限管理
+>* 少前端样式
+>* 快速开发
+       
 
